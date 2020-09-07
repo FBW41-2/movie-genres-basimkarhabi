@@ -1,4 +1,68 @@
-html, body {
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align-last: center;
+	align-items: stretch;
+	text-decoration: black;
+}
+
+
+.flex-container {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: stretch;
+	justify-items: center;
+	flex-flow: row wrap;
+}
+
+
+
+
+.Action {
+	background: dodgerblue;
+	width: 500px;
+	height: 100px;
+
+}
+
+.Thriller {
+	background: rgb(190, 178, 178);
+	width: 500px;
+	height: 100px;
+}
+
+.Comedy {
+	background: rgb(255, 214, 30);
+	width: 500px;
+	height: 100px;
+}
+
+.Horror {
+	background: black;
+	text-decoration-color: white;
+	width: 500px;
+	height: 100px;
+	flex-grow: 10;
+}
+
+.Drama {
+	background-color: darkgrey;
+	width: 500px;
+	height: 100px;
+	flex-grow: 10;
+
+}
+
+.Romance {
+	background-color: red;
+	width: 500px;
+	height: 100px;
+
 }
